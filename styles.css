@@ -60,3 +60,11 @@ button:hover {
     display: block;
     margin: 0 auto;
 }
+
+h2 {
+    font-size: 70px;
+    color: white;
+    font-family: "calling-code", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
