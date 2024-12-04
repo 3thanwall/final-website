@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css">
     <title>3thanWall.com</title>
+    <!-- Include p5.js and p5.glitch -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="https://p5.glitch.me/dist/p5.glitch.js"></script>
 </head>
 <body>
     <div class="button-container">
-        <!-- Buttons to the left of the H1 -->
         <div class="left-buttons">
             <button>Typography</button>
             <button>CARP Project</button>
         </div>
-<H1>3thanwall.com</H1>
-        <!-- Buttons to the right of the H1 -->
+        <h1>3thanwall.com</h1>
         <div class="right-buttons">
             <button>Coding Worksheets</button>
             <button>Reflection</button>
-</div>
-</div>
+        </div>
+    </div>
+    <div class="image-banner">
+        <!-- This will be replaced by the glitch canvas -->
+        <div id="glitch-container"></div>
+    </div>
+    <!-- Link the custom script for the glitch -->
+    <script src="sketch.js"></script>
 </body>
 </html>
