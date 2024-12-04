@@ -38,11 +38,11 @@ button {
 
 .left-buttons, .right-buttons {
     display: flex;
-    gap: 250px;
+    gap: 150px;
 }
 
 .left-buttons button:first-child {
-    margin-left: 100px; /* Move the Typography button 100px to the right */
+    margin-left: 150px; /* Move the Typography button 100px to the right */
 }
 
 button:hover {
