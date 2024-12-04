@@ -49,7 +49,7 @@ button:hover {
 }
 
 #glitch-container canvas {
-    display: block; /* Removes extra spacing */
-    max-width: 100%; /* Ensures responsiveness */
+    display: block;
+    max-width: 100%;
     height: auto;
 }
