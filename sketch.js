@@ -3,10 +3,7 @@ let img;
 
 function preload() {
     // Load your uploaded image
-    img = loadImage("Glitch Image.jpg", 
-        () => console.log("Image loaded successfully"),
-        () => console.error("Failed to load image. Check the path!")
-    );
+    img = loadImage("Glitch Image.jpg",);
 }
 
 function setup() {
