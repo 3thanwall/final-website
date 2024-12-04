@@ -41,6 +41,10 @@ button {
     gap: 250px;
 }
 
+.left-buttons button:first-child {
+    margin-left: 100px; /* Move the Typography button 100px to the right */
+}
+
 button:hover {
     background-color: #45a049;
 }
