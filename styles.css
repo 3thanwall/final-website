@@ -38,7 +38,7 @@ button {
 
 .left-buttons, .right-buttons {
     display: flex;
-    gap: 150px;
+    gap: 250px;
 }
 
 button:hover {
