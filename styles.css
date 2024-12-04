@@ -14,7 +14,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;  /* Space between the left and right buttons */
-    padding: 20px;
+    padding: 50px;
 }
 
 button {
