@@ -10,3 +10,27 @@ h1{
     font-weight: 400;
     font-style: normal;
 }
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* Space between the left and right buttons */
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.left-buttons, .right-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+button:hover {
+    background-color: #45a049;
+}
