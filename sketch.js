@@ -1,42 +1,28 @@
-
-let glitch, typeCounter = 0;
+let glitch;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(0);
-	imageMode(CENTER);
+    createCanvas(windowWidth, windowHeight);
+    background(0);
+    imageMode(CENTER);
 
-	glitch = new Glitch();
-	setupGlitch(); // load image w/ random type
+    glitch = new Glitch();
+
+    // Ensure image is loaded correctly
+    loadImage('Glitch Image.jpg', (im) => {
+        glitch.loadImage(im);
+    }, (err) => {
+        console.error('Failed to load image:', err);
+    });
 }
 
 function draw() {
-	glitch.resetBytes();
+    if (glitch.image) { // Ensure glitch has an image before proceeding
+        glitch.resetBytes();
 
-	glitch.randomBytes(1); // add one random byte for movement
+        glitch.replaceBytes(100, 104); // Swap bytes
+        glitch.randomBytes(1);        // Add one random byte for movement
 
-	glitch.buildImage(function() {
-		background(0); // clear background once image is ready
-		displayType(); // show text
-	});
-	image(glitch.image, width / 2, height / 2)
-}
-
-function mousePressed() {
-	typeCounter++;
-	setupGlitch(); // grab another random format
-}
-
-function setupGlitch() {
-	loadImage('Glitch Image.jpg', function(im) {
-		glitch.loadType(glitch.types[typeCounter%glitch.types.length]); // use random type
-		glitch.loadImage(im);
-	});
-}
-
-function displayType() {
-	fill(255);
-	textAlign(CENTER, CENTER);
-	textSize(20);
-	text('press mouse to walkthrough image types \n' + glitch.types[typeCounter%glitch.types.length], 0, 0, width, height/2);
+        glitch.buildImage();
+        image(glitch.image, width / 2, height / 2);
+    }
 }
