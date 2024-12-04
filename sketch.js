@@ -1,42 +1,22 @@
 let glitch;
-let img;
-
-function preload() {
-    // Load your uploaded image
-    img = loadImage("Glitch Image.jpg",);
-}
 
 function setup() {
-    // Create a canvas and attach it to the glitch container
-    const canvas = createCanvas(windowWidth, 400);
-    canvas.parent("glitch-container");
+	createCanvas(windowWidth, windowHeight);
+	background(0);
+	imageMode(CENTER);
 
-    // Initialize the glitch effect
-    glitch = new Glitch();
-    glitch.loadType("jpg");
-    glitch.pixelate(1);  // Adjust the pixelation level if desired
-    glitch.loadImage(img);
+	glitch = new Glitch();
+	loadImage('Glitch Image.jpg', function(im){
+		glitch.loadImage(im);
+	});
 }
 
 function draw() {
-    background(0);
+	glitch.resetBytes();
 
-    // Apply the glitch effect only if the image is loaded
-    if (glitch && img) {
-        glitch.resetBytes();
-        glitch.randomBytes(0.3); // Adjust the intensity of the glitch effect
-        glitch.buildImage();
-        glitch.draw(0, 0, width, height);
-    } else {
-        fill(255);
-        textSize(24);
-        textAlign(CENTER, CENTER);
-        text("Loading glitch effect...", width / 2, height / 2);
-    }
+	glitch.replaceBytes(100, 104); // swap all decimal byte 100 for 104
+	glitch.randomBytes(1); // add one random byte for movement
+
+	glitch.buildImage();
+	image(glitch.image, width/2, height/2)
 }
-
-function windowResized() {
-    // Resize the canvas when the window size changes
-    resizeCanvas(windowWidth, 400);
-}
-
