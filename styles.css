@@ -19,7 +19,7 @@ h1{
 
 button {
     background-color: white;
-    color: limegreen; /* Text color */
+    color: #333 ; /* Text color */
     border: none;
     padding: 10px 20px;
     margin: 5px;
