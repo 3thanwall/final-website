@@ -201,3 +201,15 @@ h3 {
 .image-box:last-child p {
     margin-right: -100px; /* Move the second paragraph 200px to the right */
 }
+
+h4 {
+    font-size: 70px; /* Existing h3 styles */
+    color: white;
+    font-family: "calling-code", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap; /* Prevent wrapping */
+    margin: 0; /* Ensure no extra margin disrupts alignment */
+    text-align: center; /* Center-align the text */
+    flex: 2; /* Ensure the h3 gets more space than the words */
+}
