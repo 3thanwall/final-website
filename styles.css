@@ -20,7 +20,7 @@ h1 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    white-space: nowrap; /* Prevent wrapping */
+    white-space: nowrap;
     margin: 0;
 }
 
