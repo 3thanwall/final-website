@@ -191,5 +191,5 @@ h3 {
     text-align: center; /* Center-align the paragraph under the image */
     margin-top: 10px; /* Space between the image and the paragraph */
     width: 80%; /* Keep the paragraph width controlled */
-    margin: 10px auto; /* Center the text block */
+    margin: 20px auto; /* Center the text block */
 }
