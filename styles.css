@@ -78,14 +78,14 @@ h2 {
 .word-container {
     display: flex;
     justify-content: space-between; /* Evenly space the words */
-    margin: 150px auto 20px auto; /* Add 300px margin above the container */
+    margin: 200px auto 20px auto; /* Add 300px margin above the container */
     width: 80%; /* Adjust width to control spacing */
     text-align: center;
 }
 
 
 .word-container span {
-    font-size: 30px;
+    font-size: 25px;
     color: white; /* Match theme */
     font-family: "calling-code", sans-serif;
 }
