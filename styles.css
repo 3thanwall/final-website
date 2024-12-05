@@ -156,22 +156,45 @@ h3 {
     flex: 2; /* Ensure the h3 gets more space than the words */
 }
 
+.word-and-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Space from above */
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+}
+
+.word {
+    display: flex;
+    justify-content: space-between; /* Space the words evenly */
+    width: 100%; /* Ensure the words align with the images */
+    text-align: center;
+}
+
+.word span {
+    font-size: 16px;
+    color: white;
+    font-family: "calling-code", sans-serif;
+    flex: 1; /* Allow words to space out evenly */
+    text-align: center; /* Center-align each word */
+}
+
 .image-container {
     display: flex;
     justify-content: space-between; /* Space the images evenly */
-    align-items: center; /* Align images vertically */
-    margin-top: 20px; /* Add spacing between the words and the images */
-    width: 80%; /* Control overall container width */
-    margin: 0 auto; /* Center the container on the page */
+    align-items: flex-start; /* Align items at the top of their container */
+    width: 100%; /* Match the width of the words container */
+    margin-top: 10px; /* Space between words and images */
 }
 
 .image-box {
-    flex: 1; /* Allow flexibility for spacing */
-    text-align: center; /* Center the images within their boxes */
+    flex: 1; /* Allow equal space for each image */
+    text-align: center; /* Ensure the image centers horizontally */
 }
 
 .image-box img {
-    width: 700px; /* Adjust image width */
+    width: 600px; /* Set the image width */
     height: auto; /* Maintain aspect ratio */
-  
+
 }
