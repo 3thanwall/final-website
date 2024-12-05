@@ -62,13 +62,18 @@ button:hover {
 }
 
 h2 {
-    font-size: 40px; /* Adjust font size */
+    font-size: 70px;
     color: white;
-    text-align: center;
-    font-family: "Arial", sans-serif;
+    font-family: "calling-code", sans-serif;
     font-weight: 400;
-    margin: 20px 0; /* Add margin to separate h2 from content */
+    font-style: normal;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Prevent wrapping */
+    margin: 0;
 }
+
 
 .word-container {
     display: flex;
