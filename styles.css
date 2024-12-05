@@ -108,4 +108,5 @@ h2 {
 .word img {
     width: 300px; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
+    margin-top: -20px; /* Move the images up by 20px */
 }
