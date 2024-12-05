@@ -127,15 +127,31 @@ h2 {
     margin-top: 10px; /* Specifically reduce the margin between consecutive word containers */
 }
 
+.h3-container {
+    display: flex;
+    align-items: center; /* Align text and h3 vertically */
+    justify-content: space-between; /* Space out the words and h3 evenly */
+    margin: 20px auto; /* Add spacing around the container */
+    width: 80%; /* Control the overall container width */
+    text-align: center;
+}
+
+.left-word, .right-word {
+    font-size: 16px; /* Adjust font size */
+    color: white; /* Match the theme */
+    font-family: "calling-code", sans-serif;
+    flex: 1; /* Allow flexibility for spacing */
+    text-align: center; /* Center-align each word in its space */
+}
+
 h3 {
-    font-size: 70px;
+    font-size: 70px; /* Existing h3 styles */
     color: white;
     font-family: "calling-code", sans-serif;
     font-weight: 400;
     font-style: normal;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     white-space: nowrap; /* Prevent wrapping */
-    margin: 30px;
+    margin: 0; /* Ensure no extra margin disrupts alignment */
+    text-align: center; /* Center-align the text */
+    flex: 2; /* Ensure the h3 gets more space than the words */
 }
