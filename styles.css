@@ -162,7 +162,7 @@ h3 {
     align-items: center; /* Align images vertically */
     margin-top: 20px; /* Add spacing between the words and the images */
     width: 80%; /* Control overall container width */
-    margin: 20 auto; /* Center the container on the page */
+    margin: 0 auto; /* Center the container on the page */
 }
 
 .image-box {
@@ -190,7 +190,7 @@ h3 {
     font-family: "calling-code", sans-serif;
     text-align: center; /* Center-align the paragraph under the image */
     width: 100%; /* Keep the paragraph width controlled */
-    margin: 20px auto; /* Center the text block */
+    margin: 10px auto; /* Center the text block */
 }
 
 .image-box:first-child p {
