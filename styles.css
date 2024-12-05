@@ -128,6 +128,7 @@ h2 {
 }
 
 .h3-container {
+    margin: 30px auto;
     display: flex;
     align-items: center; /* Align text and h3 vertically */
     justify-content: space-between; /* Space out the words and h3 evenly */
@@ -185,12 +186,12 @@ h3 {
 }
 
 .image-box p {
-    font-size: 50px; /* Adjust font size for readability */
-    color: white; /* Match the theme */
+    font-size: 50px; /* Keep existing styles */
+    color: white;
     font-family: "calling-code", sans-serif;
-    text-align: center; /* Center-align the paragraph under the image */
-    width: 100%; /* Keep the paragraph width controlled */
-    margin: 10px auto; /* Center the text block */
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 30px auto; /* Increase bottom margin to 30px */
 }
 
 .image-box:first-child p {
