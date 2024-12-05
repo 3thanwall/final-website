@@ -137,7 +137,7 @@ h2 {
 }
 
 .left-word, .right-word {
-    font-size: 16px; /* Adjust font size */
+    font-size: 25px; /* Adjust font size */
     color: white; /* Match the theme */
     font-family: "calling-code", sans-serif;
     flex: 1; /* Allow flexibility for spacing */
