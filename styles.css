@@ -137,7 +137,7 @@ h2 {
 }
 
 .left-word, .right-word {
-    font-size: 35px; /* Adjust font size */
+    font-size: 50px; /* Adjust font size */
     color: white; /* Match the theme */
     font-family: "calling-code", sans-serif;
     flex: 1; /* Allow flexibility for spacing */
@@ -182,4 +182,14 @@ h3 {
 
 .image-box:last-child img {
     margin-right: -200px; /* Move the Alignment image 50px to the right */
+}
+
+.image-box p {
+    font-size: 50px; /* Adjust font size for readability */
+    color: white; /* Match the theme */
+    font-family: "calling-code", sans-serif;
+    text-align: center; /* Center-align the paragraph under the image */
+    margin-top: 10px; /* Space between the image and the paragraph */
+    width: 80%; /* Keep the paragraph width controlled */
+    margin: 10px auto; /* Center the text block */
 }
