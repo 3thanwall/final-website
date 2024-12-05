@@ -189,6 +189,6 @@ h3 {
     color: white; /* Match the theme */
     font-family: "calling-code", sans-serif;
     text-align: center; /* Center-align the paragraph under the image */
-    width: 80%; /* Keep the paragraph width controlled */
+    width: 100%; /* Keep the paragraph width controlled */
     margin: 10px auto; /* Center the text block */
 }
