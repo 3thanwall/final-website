@@ -185,7 +185,7 @@ h3 {
 }
 
 .image-box p {
-    font-size: 14px; /* Adjust font size for readability */
+    font-size: 50px; /* Adjust font size for readability */
     color: white; /* Match the theme */
     font-family: "calling-code", sans-serif;
     text-align: center; /* Center-align the paragraph under the image */
