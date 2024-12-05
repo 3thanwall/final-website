@@ -194,9 +194,9 @@ h3 {
 }
 
 .image-box:first-child p {
-    margin-left: -200px; /* Move the first paragraph 200px to the left */
+    margin-left: -100px; /* Move the first paragraph 200px to the left */
 }
 
 .image-box:last-child p {
-    margin-right: -200px; /* Move the second paragraph 200px to the right */
+    margin-right: -100px; /* Move the second paragraph 200px to the right */
 }
