@@ -71,7 +71,7 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap; /* Prevent wrapping */
-    margin: 0;
+    margin: 20px;
 }
 
 
