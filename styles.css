@@ -110,11 +110,3 @@ h2 {
     height: auto; /* Maintain aspect ratio */
     margin-top: -50px; /* Move the images up by 20px */
 }
-
-.bottom-word {
-    font-size: 15px; /* Customize size */
-    color: white;
-    font-family: "calling-code", sans-serif;
-    margin-top: 10px; /* Control spacing above */
-    margin-bottom: 10px
-}
