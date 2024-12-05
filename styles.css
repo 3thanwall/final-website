@@ -189,7 +189,7 @@ h3 {
     color: white; /* Match the theme */
     font-family: "calling-code", sans-serif;
     text-align: center; /* Center-align the paragraph under the image */
-    margin-top: 200px; /* Space between the image and the paragraph */
+    margin-top: 10px; /* Space between the image and the paragraph */
     width: 80%; /* Keep the paragraph width controlled */
-    margin: 20px auto; /* Center the text block */
+    margin: 10px auto; /* Center the text block */
 }
