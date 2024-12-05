@@ -116,6 +116,6 @@ h2 {
     color: white; /* Match the theme */
     font-family: "calling-code", sans-serif;
     text-align: center; /* Center-align the text */
-    margin-top: -10px; /* Add space between the image and the paragraph */
+    margin-top: -30px; /* Add space between the image and the paragraph */
     width: 50%; /* Adjust width for better readability */
 }
