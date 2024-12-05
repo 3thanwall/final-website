@@ -102,12 +102,10 @@ h2 {
     display: flex;
     flex-direction: column; /* Stack text and image vertically */
     align-items: center; /* Center-align text and image */
-    gap: 50px; /* Add 50px space between the word and its image */
+    gap: 100px; /* Add 50px space between the word and its image */
 }
 
 .word img {
-    width: 100px; /* Adjust image width */
+    width: 200px; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
-    border: 2px solid white; /* Optional: Add border for better visibility */
-    border-radius: 5px; /* Optional: Rounded corners */
 }
