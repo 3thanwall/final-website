@@ -78,10 +78,11 @@ h2 {
 .word-container {
     display: flex;
     justify-content: space-between; /* Evenly space the words */
-    margin: 20px auto; /* Center and add spacing */
+    margin: 300px auto 20px auto; /* Add 300px margin above the container */
     width: 80%; /* Adjust width to control spacing */
     text-align: center;
 }
+
 
 .word-container span {
     font-size: 20px;
