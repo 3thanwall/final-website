@@ -155,3 +155,23 @@ h3 {
     text-align: center; /* Center-align the text */
     flex: 2; /* Ensure the h3 gets more space than the words */
 }
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Space the images evenly */
+    align-items: center; /* Align images vertically */
+    margin-top: 20px; /* Add spacing between the words and the images */
+    width: 80%; /* Control overall container width */
+    margin: 0 auto; /* Center the container on the page */
+}
+
+.image-box {
+    flex: 1; /* Allow flexibility for spacing */
+    text-align: center; /* Center the images within their boxes */
+}
+
+.image-box img {
+    width: 200px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+  
+}
