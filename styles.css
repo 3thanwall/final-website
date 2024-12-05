@@ -123,3 +123,10 @@ h2 {
     max-width: 300px; /* Ensure the text doesn't exceed the block's width */
 
 }
+.word-container {
+    margin: 20px auto; /* Adjust top and bottom margin for smaller spacing */
+}
+
+.word-container + .word-container {
+    margin-top: 10px; /* Specifically reduce the margin between consecutive word containers */
+}
