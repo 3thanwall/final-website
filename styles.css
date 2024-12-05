@@ -73,16 +73,17 @@ h2 {
     white-space: nowrap; /* Prevent wrapping */
     margin: 0;
 }
+
 .word-container {
     display: flex;
-    justify-content: space-between; /* Evenly distribute the words */
-    margin: 20px auto; /* Add spacing around the container */
-    width: 80%; /* Adjust width to control spacing (optional) */
+    justify-content: space-between; /* Evenly space the words */
+    margin: 0 auto 20px auto; /* Center and add space below */
+    width: 80%; /* Adjust width to control spacing */
     text-align: center;
 }
 
 .word-container span {
     font-size: 20px;
-    color: white; /* Match the theme */
+    color: white; /* Match theme */
     font-family: "Arial", sans-serif;
 }
