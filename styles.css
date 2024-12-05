@@ -192,3 +192,11 @@ h3 {
     width: 100%; /* Keep the paragraph width controlled */
     margin: 10px auto; /* Center the text block */
 }
+
+.image-box:first-child p {
+    margin-left: -200px; /* Move the first paragraph 200px to the left */
+}
+
+.image-box:last-child p {
+    margin-right: -200px; /* Move the second paragraph 200px to the right */
+}
