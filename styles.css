@@ -42,11 +42,11 @@ button {
 }
 
 .left-buttons button:first-child {
-    margin-left: 150px; /* Move the Typography button 100px to the right */
+    margin-left: 150px;
 }
 
 .right-buttons button:last-child {
-    margin-right: 150px; /* Move the Reflection button 100px to the left */
+    margin-right: 150px; 
 }
 
 
@@ -72,4 +72,17 @@ h2 {
     transform: translateX(-50%);
     white-space: nowrap; /* Prevent wrapping */
     margin: 0;
+}
+.word-container {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute the words */
+    margin: 20px auto; /* Add spacing around the container */
+    width: 80%; /* Adjust width to control spacing (optional) */
+    text-align: center;
+}
+
+.word-container span {
+    font-size: 20px;
+    color: white; /* Match the theme */
+    font-family: "Arial", sans-serif;
 }
