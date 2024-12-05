@@ -112,10 +112,14 @@ h2 {
 }
 
 .word p {
-    font-size: 25px; /* Smaller font size for paragraphs */
+    font-size: 16px; /* Small font size for paragraphs */
     color: white; /* Match the theme */
     font-family: "calling-code", sans-serif;
     text-align: center; /* Center-align the text */
-    margin-top: -30px; /* Add space between the image and the paragraph */
-    width: 50%; /* Adjust width for better readability */
+    margin-top: 10px; /* Space between the image and the text */
+    word-wrap: break-word; /* Break long words to avoid overflow */
+    overflow-wrap: break-word; /* Ensure text stays within bounds */
+    width: 100%; /* Match the container width */
+    max-width: 300px; /* Ensure the text doesn't exceed the block's width */
+
 }
