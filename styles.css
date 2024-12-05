@@ -112,9 +112,9 @@ h2 {
 }
 
 .bottom-word {
-    font-size: 20px; /* Customize size */
+    font-size: 15px; /* Customize size */
     color: white;
     font-family: "calling-code", sans-serif;
-    margin-top: 20px; /* Control spacing above */
+    margin-top: 10px; /* Control spacing above */
     margin-bottom: 10px
 }
