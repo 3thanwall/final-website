@@ -106,6 +106,6 @@ h2 {
 }
 
 .word img {
-    width: 200px; /* Adjust image width */
+    width: 400px; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
 }
