@@ -62,22 +62,18 @@ button:hover {
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 40px; /* Adjust font size */
     color: white;
-    font-family: "calling-code", sans-serif;
+    text-align: center;
+    font-family: "Arial", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap; /* Prevent wrapping */
-    margin: 0;
+    margin: 20px 0; /* Add margin to separate h2 from content */
 }
 
 .word-container {
     display: flex;
     justify-content: space-between; /* Evenly space the words */
-    margin: 0 auto 20px auto; /* Center and add space below */
+    margin: 20px auto; /* Center and add spacing */
     width: 80%; /* Adjust width to control spacing */
     text-align: center;
 }
