@@ -79,7 +79,7 @@ h2 {
     display: flex;
     justify-content: space-between; /* Evenly space the words */
     margin: 200px auto 20px auto; /* Add 300px margin above the container */
-    width: 80%; /* Adjust width to control spacing */
+    width: 60%; /* Adjust width to control spacing */
     text-align: center;
 }
 
