@@ -175,3 +175,11 @@ h3 {
     height: auto; /* Maintain aspect ratio */
   
 }
+
+.image-box:first-child img {
+    margin-left: -50px; /* Move the Contrast image 50px to the left */
+}
+
+.image-box:last-child img {
+    margin-right: -50px; /* Move the Alignment image 50px to the right */
+}
