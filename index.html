@@ -68,7 +68,8 @@
             <p>For this piece I had to make the circle the main text point and have it extending from it with contrasting colors to make it eye-catching.</p>
         </div> 
     </div>
-    <h3>CARP Project</h3>
+    <h3 id="carp-project">CARP Project</h3>
+
 
     <div class="h3-container">
         <span class="left-word">Contrast</span>
@@ -135,12 +136,21 @@
     
 </body>
 <script>
+    // Scroll to Typography
     document.querySelector('.left-buttons button:first-child').addEventListener('click', function () {
         document.getElementById('typography').scrollIntoView({
             behavior: 'smooth' // Enables smooth scrolling
         });
     });
+
+    // Scroll to CARP Project
+    document.querySelector('.left-buttons button:nth-child(2)').addEventListener('click', function () {
+        document.getElementById('carp-project').scrollIntoView({
+            behavior: 'smooth' // Enables smooth scrolling
+        });
+    });
 </script>
+
 
 </html>
 
