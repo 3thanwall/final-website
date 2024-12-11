@@ -265,12 +265,25 @@ h6 {
     flex: 2; /* Ensure the h3 gets more space than the words */
 }
 
+body, html {
+    height: 100%; /* Ensure the entire page height is used */
+    margin: 0; /* Remove any default margin */
+}
+
+.center-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make the container span the full height of the viewport */
+    background-color: #333; /* Optional: Match the background theme */
+}
+
 h7 {
     font-size: 70px; /* Adjust font size as needed */
-    color: white;
-    font-family: "calling-code", sans-serif;
+    color: white; /* Ensure visibility */
+    font-family: "calling-code", sans-serif; /* Keep font consistency */
     font-weight: 400;
     font-style: normal;
-    white-space: nowrap;
-    text-align: center; /* Horizontally center */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-align: center; /* Ensure text aligns in the center */
 }
