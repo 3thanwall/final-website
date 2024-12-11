@@ -299,13 +299,14 @@ h6 {
     top: calc(20% + 50px); /* Moves the text box 50px further down */
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #333;
-    padding: 20px;
+    background-color: #00aac6;
+    padding: 30px; /* Optional: Increase padding for a larger appearance */
     color: white;
     font-family: "calling-code", sans-serif;
     text-align: center;
     border-radius: 8px;
-    max-width: 100%;
+    max-width: 90%; /* Increase the maximum width */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Ensure consistent width */
 }
 
