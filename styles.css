@@ -275,3 +275,14 @@ h7 {
     white-space: nowrap; /* Prevent text wrapping */
     text-align: center; /* Ensure text aligns in the center */
 }
+
+.centered-header {
+    font-size: 70px; /* Match the size of h4 */
+    color: white;
+    font-family: "calling-code", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add spacing above */
+    margin-bottom: 40px; /* Add spacing below */
+}
