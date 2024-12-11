@@ -229,20 +229,17 @@ h5 {
 
 .worksheet-images {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap; /* Enable wrapping for images */
-    margin: 40px auto;
+    justify-content: center; 
+    gap: 40px; 
+    margin: 40px auto; 
 }
 
 .worksheet-images img {
-    width: 100%; /* Allow flexible width for responsiveness */
-    max-width: 350px; /* Set a maximum width for the images */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover;
-    border-radius: 5px;
+    width: 700px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 5px; 
 }
-
 
 .worksheet-button {
     display: inline-block;
