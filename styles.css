@@ -230,13 +230,13 @@ h5 {
 .worksheet-images {
     display: flex;
     justify-content: center; /* Center the images */
-    gap: 20px; /* Add space between the images */
-    margin: 20px auto; /* Center the container */
+    gap: 30px; /* Add space between the images */
+    margin: 30px auto; /* Center the container */
 }
 
 .worksheet-images img {
-    width: 300px; /* Set a consistent width for both images */
-    height: 200px; /* Set a consistent height */
+    width: 500px; /* Set a larger width for both images */
+    height: 300px; /* Set a larger height */
     object-fit: cover; /* Ensure images fit within the set dimensions */
     border: 2px solid white; /* Optional: Add a border */
     border-radius: 5px; /* Optional: Add rounded corners */
