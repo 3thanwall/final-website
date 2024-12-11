@@ -237,5 +237,4 @@ h5 {
 .worksheet-images img {
     width: 45%; /* Ensure both images are of equal size */
     height: auto; /* Maintain aspect ratio */
-    border: 2px solid white; /* Optional: Add a border */
 }
