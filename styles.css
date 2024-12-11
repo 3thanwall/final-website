@@ -296,7 +296,7 @@ h6 {
 
 .text-box {
     position: absolute;
-    top: calc(50% + 50px); /* Moves the text box 50px further down */
+    top: calc(50% + 20px); /* Moves the text box 50px further down */
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #333;
