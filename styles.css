@@ -273,8 +273,4 @@ h7 {
     font-style: normal;
     white-space: nowrap;
     text-align: center; /* Horizontally center */
-    position: absolute; /* Enable absolute positioning */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for true center */
 }
