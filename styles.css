@@ -81,20 +81,6 @@ button {
     border-radius: 5px;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 40px; /* Reduce size on smaller screens */
-    }
-
-    button {
-        padding: 8px 12px; /* Adjust padding further */
-        font-size: 12px;
-    }
-
-    .button-container {
-        flex-direction: column; /* Stack the content vertically on small screens */
-    }
-}
 
 
 .left-buttons button:first-child {
