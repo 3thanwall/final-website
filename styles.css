@@ -310,3 +310,7 @@ h6 {
     width: 80%; /* Ensure consistent width */
 }
 
+.text-box p {
+    font-size: 21px; /* Original 16px + 5px */
+}
+
