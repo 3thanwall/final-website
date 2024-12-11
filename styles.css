@@ -5,41 +5,97 @@ body {
 
 .button-container {
     display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center align the content */
+    gap: 10px; /* Adjust gap for smaller screens */
     padding: 20px;
-    position: relative;
+    text-align: center; /* Ensure content is centered */
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 50px; /* Adjust font size for responsiveness */
     color: white;
     font-family: "calling-code", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    margin: 0;
-}
-
-
-button {
-    background-color: white;
-    color: #333;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+    margin: 10px auto; /* Add margin for spacing */
+    text-align: center; /* Center the heading */
 }
 
 .left-buttons, .right-buttons {
     display: flex;
-    gap: 150px;
+    flex-wrap: wrap; /* Allow buttons to wrap */
+    gap: 10px; /* Reduce gap for smaller screens */
+    justify-content: center; /* Align buttons centrally */
 }
+
+button {
+    padding: 10px 15px; /* Adjust button padding for responsiveness */
+    font-size: 14px; /* Reduce font size slightly */
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px; /* Reduce size on smaller screens */
+    }
+
+    button {
+        padding: 8px 12px; /* Adjust padding further */
+        font-size: 12px;
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack the content vertically on small screens */
+    }
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    align-items: center;
+    justify-content: center; /* Center align the content */
+    gap: 10px; /* Adjust gap for smaller screens */
+    padding: 20px;
+    text-align: center; /* Ensure content is centered */
+}
+
+h1 {
+    font-size: 50px; /* Adjust font size for responsiveness */
+    color: white;
+    font-family: "calling-code", sans-serif;
+    font-weight: 400;
+    margin: 10px auto; /* Add margin for spacing */
+    text-align: center; /* Center the heading */
+}
+
+.left-buttons, .right-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap */
+    gap: 10px; /* Reduce gap for smaller screens */
+    justify-content: center; /* Align buttons centrally */
+}
+
+button {
+    padding: 10px 15px; /* Adjust button padding for responsiveness */
+    font-size: 14px; /* Reduce font size slightly */
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px; /* Reduce size on smaller screens */
+    }
+
+    button {
+        padding: 8px 12px; /* Adjust padding further */
+        font-size: 12px;
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack the content vertically on small screens */
+    }
+}
+
 
 .left-buttons button:first-child {
     margin-left: 150px;
