@@ -296,7 +296,7 @@ h6 {
 
 .text-box {
     position: absolute; /* Position the text box relative to the container */
-    top: 50%; /* Adjust to place the text box in the center vertically */
+    top: 10%; /* Adjust to place the text box in the center vertically */
     left: 50%; /* Adjust to place the text box in the center horizontally */
     transform: translate(-50%, -50%); /* Center the box perfectly */
     background-color: #00aac6; /* The specified color for the text box */
