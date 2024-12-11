@@ -305,7 +305,7 @@ h6 {
     font-family: "calling-code", sans-serif;
     text-align: center;
     border-radius: 8px;
-    max-width: 80%;
+    max-width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
