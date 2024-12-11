@@ -70,46 +70,46 @@ h2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    white-space: nowrap; /* Prevent wrapping */
+    white-space: nowrap; 
     margin: 30px;
 }
 
 
 .word-container {
     display: flex;
-    justify-content: space-between; /* Evenly space the words */
-    margin: 200px auto 20px auto; /* Add 300px margin above the container */
-    width: 70%; /* Adjust width to control spacing */
+    justify-content: space-between; 
+    margin: 200px auto 20px auto; 
+    width: 70%;
     text-align: center;
 }
 
 
 .word-container span {
     font-size: 25px;
-    color: white; /* Match theme */
+    color: white; 
     font-family: "calling-code", sans-serif;
 }
 
 .word-container {
     display: flex;
-    justify-content: space-between; /* Space the words and images evenly */
-    margin: 200px auto 20px auto; /* Adjust margin for overall spacing */
-    width: 80%; /* Control the overall container width */
+    justify-content: space-between; 
+    margin: 200px auto 20px auto; 
+    width: 80%; 
     text-align: center;
     flex-wrap: wrap;
 }
 
 .word {
     display: flex;
-    flex-direction: column; /* Stack text and image vertically */
-    align-items: center; /* Center-align text and image */
-    gap: 100px; /* Add 50px space between the word and its image */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 100px; 
 }
 
 .word img {
-    width: 300px; /* Adjust image width */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: -50px; /* Move the images up by 20px */
+    width: 300px; 
+    height: auto; 
+    margin-top: -50px; 
 }
 
 .word p {
@@ -118,174 +118,174 @@ h2 {
     font-family: "calling-code", sans-serif;
     text-align: center; 
     margin-top: -40px; 
-    word-wrap: break-word; /* Break long words to avoid overflow */
-    overflow-wrap: break-word; /* Ensure text stays within bounds */
-    width: 100%; /* Match the container width */
-    max-width: 300px; /* Ensure the text doesn't exceed the block's width */
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    width: 100%; 
+    max-width: 300px; 
 
 }
 .word-container + .word-container {
-    margin-top: 10px; /* Specifically reduce the margin between consecutive word containers */
+    margin-top: 10px; 
 }
 
 .h3-container {
     margin: 30px auto;
     display: flex;
-    align-items: center; /* Align text and h3 vertically */
-    justify-content: space-between; /* Space out the words and h3 evenly */
-    margin: 50px auto; /* Add spacing around the container */
-    width: 100%; /* Control the overall container width */
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 50px auto; 
+    width: 100%;
     text-align: center;
 }
 
 .left-word, .right-word {
-    font-size: 50px; /* Adjust font size */
-    color: white; /* Match the theme */
+    font-size: 50px; 
+    color: white;
     font-family: "calling-code", sans-serif;
-    flex: 1; /* Allow flexibility for spacing */
-    text-align: center; /* Center-align each word in its space */
+    flex: 1; 
+    text-align: center;
 }
 
 h3 {
-    font-size: 70px; /* Existing h3 styles */
+    font-size: 70px;
     color: white;
     font-family: "calling-code", sans-serif;
     font-weight: 400;
     font-style: normal;
-    white-space: nowrap; /* Prevent wrapping */
-    margin: 0; /* Ensure no extra margin disrupts alignment */
-    text-align: center; /* Center-align the text */
-    flex: 2; /* Ensure the h3 gets more space than the words */
+    white-space: nowrap; 
+    margin: 0; 
+    text-align: center; 
+    flex: 2; 
 }
 
 .image-container {
     display: flex;
-    justify-content: space-between; /* Space the images evenly */
-    align-items: center; /* Align images vertically */
-    margin-top: 20px; /* Add spacing between the words and the images */
-    width: 80%; /* Control overall container width */
-    margin: 0 auto; /* Center the container on the page */
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 20px; 
+    width: 80%; 
+    margin: 0 auto; 
 }
 
 .image-box {
-    flex: 1; /* Allow flexibility for spacing */
-    text-align: center; /* Center the images within their boxes */
+    flex: 1; 
+    text-align: center; 
 }
 
 .image-box img {
-    width: 700px; /* Adjust image width */
-    height: auto; /* Maintain aspect ratio */
+    width: 700px; 
+    height: auto; 
   
 }
 
 .image-box:first-child img {
-    margin-left: -200px; /* Move the Contrast image 50px to the left */
+    margin-left: -200px; 
 }
 
 .image-box:last-child img {
-    margin-right: -200px; /* Move the Alignment image 50px to the right */
+    margin-right: -200px; 
 }
 
 .image-box p {
-    font-size: 25px; /* Keep existing styles */
+    font-size: 25px; 
     color: white;
     font-family: "calling-code", sans-serif;
     text-align: center;
     width: 100%;
-    margin: 10px auto 70px auto; /* Increase bottom margin to 30px */
+    margin: 10px auto 70px auto; 
 }
 
 .image-box:first-child p {
-    margin-left: -100px; /* Move the first paragraph 200px to the left */
+    margin-left: -100px; 
 }
 
 .image-box:last-child p {
-    margin-right: -100px; /* Move the second paragraph 200px to the right */
+    margin-right: -100px; 
 }
 
 h4 {
-    font-size: 70px; /* Existing h3 styles */
+    font-size: 70px; 
     color: white;
     font-family: "calling-code", sans-serif;
     font-weight: 400;
     font-style: normal;
-    white-space: nowrap; /* Prevent wrapping */
-    margin: 0; /* Ensure no extra margin disrupts alignment */
-    text-align: center; /* Center-align the text */
-    flex: 2; /* Ensure the h3 gets more space than the words */
+    white-space: nowrap; 
+    margin: 0; 
+    text-align: center; 
+    flex: 2; 
 }
 
 h5 {
-    font-size: 35px; /* Existing h3 styles */
+    font-size: 35px; 
     color: white;
     font-family: "calling-code", sans-serif;
     font-weight: 400;
     font-style: normal;
-    white-space: nowrap; /* Prevent wrapping */
-    margin: 30; /* Ensure no extra margin disrupts alignment */
-    text-align: center; /* Center-align the text */
-    flex: 2; /* Ensure the h3 gets more space than the words */
+    white-space: nowrap; 
+    margin: 30; 
+    text-align: center; 
+    flex: 2; 
 }
 
 .worksheet-images {
     display: flex;
-    justify-content: center; /* Center the images */
-    gap: 40px; /* Add space between the images */
-    margin: 40px auto; /* Center the container */
+    justify-content: center; 
+    gap: 40px; 
+    margin: 40px auto; 
 }
 
 .worksheet-images img {
-    width: 700px; /* Increased width */
-    height: 400px; /* Increased height */
-    object-fit: cover; /* Ensure images fit within the set dimensions */
-    border-radius: 5px; /* Optional: Add rounded corners */
+    width: 700px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 5px; 
 }
 
 .worksheet-button {
     display: inline-block;
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    transition: background-color 0.3s ease;
     border: none;
 }
 
 .worksheet-button:hover {
-    background-color: #45a049; /* Hover background color */
+    background-color: #45a049; 
     border-radius: 5px;
     padding: 5px;
 }
 
 h6 {
-    font-size: 35px; /* Existing h3 styles */
+    font-size: 35px;
     color: white;
     font-family: "calling-code", sans-serif;
     font-weight: 400;
     font-style: normal;
-    white-space: nowrap; /* Prevent wrapping */
-    margin: 30; /* Ensure no extra margin disrupts alignment */
-    text-align: center; /* Center-align the text */
-    flex: 2; /* Ensure the h3 gets more space than the words */
+    white-space: nowrap; 
+    margin: 30; 
+    text-align: center; 
+    flex: 2; 
 }
 
 .reflection-header {
-    display: block; /* Ensure it occupies its own row */
-    font-size: 70px; /* Adjust font size */
-    color: white; /* Match the theme */
+    display: block; 
+    font-size: 70px; 
+    color: white;
     font-family: "calling-code", sans-serif;
     font-weight: 400;
-    text-align: center; /* Center-align the text */
-    margin-top: 20px; /* Add spacing from the images */
-    margin-bottom: 40px; /* Add spacing below */
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 40px; 
 }
 
 .full-width-image {
-    width: 100%; /* Make the image span the full width of the page */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Ensure no extra space is added around the image */
-    margin: 0 auto; /* Center the image horizontally */
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .image-with-text {
-    position: relative; /* Create a positioning context for the text box */
-    width: 100%; /* Match the width of the image */
+    position: relative; 
+    width: 100%; 
 }
 
 .full-width-image {
@@ -296,21 +296,21 @@ h6 {
 
 .text-box {
     position: absolute;
-    top: calc(20% + 50px); /* Moves the text box 50px further down */
+    top: calc(20% + 50px); 
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #333;
-    padding: 30px; /* Optional: Increase padding for a larger appearance */
+    padding: 30px; 
     color: white;
     font-family: "calling-code", sans-serif;
     text-align: center;
     border-radius: 8px;
-    max-width: 90%; /* Increase the maximum width */
+    max-width: 90%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 80%; /* Ensure consistent width */
+    width: 80%; 
 }
 
 .text-box p {
-    font-size: 21px; /* Original 16px + 5px */
+    font-size: 21px; 
 }
 
