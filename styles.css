@@ -24,14 +24,14 @@ h1 {
 
 .left-buttons, .right-buttons {
     display: flex;
-    flex-wrap: wrap; /* Allow buttons to wrap */
-    gap: 10px; /* Reduce gap for smaller screens */
-    justify-content: center; /* Align buttons centrally */
+    flex-wrap: wrap; 
+    gap: 30px; 
+    justify-content: center; /
 }
 
 button {
-    padding: 10px 15px; /* Adjust button padding for responsiveness */
-    font-size: 14px; /* Reduce font size slightly */
+    padding: 10px 15px; 
+    font-size: 14px; 
     border-radius: 5px;
 }
 
