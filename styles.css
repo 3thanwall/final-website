@@ -25,7 +25,7 @@ h1 {
 .left-buttons, .right-buttons {
     display: flex;
     flex-wrap: wrap; 
-    gap: 30px; 
+    gap: 60px; 
     justify-content: center; /
 }
 
