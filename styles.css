@@ -226,3 +226,16 @@ h5 {
     text-align: center; /* Center-align the text */
     flex: 2; /* Ensure the h3 gets more space than the words */
 }
+
+.worksheet-images {
+    display: flex;
+    justify-content: center; /* Center the images */
+    gap: 20px; /* Add space between the images */
+    margin: 20px auto; /* Center the container */
+}
+
+.worksheet-images img {
+    width: 45%; /* Ensure both images are of equal size */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid white; /* Optional: Add a border */
+}
