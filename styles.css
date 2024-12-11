@@ -255,16 +255,14 @@ h5 {
 }
 
 h6 {
-    font-size: 35px; /* Match the desired heading size */
-    color: white; /* Ensure the correct color is applied */
-    font-family: "calling-code", sans-serif; /* Use the same font as h5 */
-    font-weight: 400; /* Ensure consistent weight */
-    font-style: normal; /* Ensure it is not italic */
+    font-size: 35px; /* Existing h3 styles */
+    color: white;
+    font-family: "calling-code", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     white-space: nowrap; /* Prevent wrapping */
-    margin: 30px 0; /* Add proper spacing */
+    margin: 30; /* Ensure no extra margin disrupts alignment */
     text-align: center; /* Center-align the text */
-    background: none; /* Remove any background inherited from a button */
-    border: none; /* Remove any border inherited from a button */
-    padding: 0; /* Remove any button padding */
-    cursor: default; /* Ensure it doesn't have a pointer cursor */
+    flex: 2; /* Ensure the h3 gets more space than the words */
 }
+
