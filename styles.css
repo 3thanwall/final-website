@@ -238,3 +238,22 @@ h5 {
     width: 45%; /* Ensure both images are of equal size */
     height: auto; /* Maintain aspect ratio */
 }
+
+.worksheet-button {
+    display: inline-block;
+    position: relative;
+    transition: background-color 0.3s ease;
+    border: none; /* Remove border */
+}
+
+.worksheet-button img {
+    width: 100%; /* Make sure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper block layout for the image */
+}
+
+.worksheet-button:hover {
+    background-color: #45a049; /* Add hover color */
+    padding: 10px; /* Optional: Add padding for hover effect */
+
+}
