@@ -229,6 +229,13 @@ h5 {
     margin: 40px auto; 
 }
 
+.worksheet-images img {
+    width: 700px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
 .worksheet-button {
     display: inline-block;
     transition: background-color 0.3s ease;
